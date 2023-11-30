@@ -73,10 +73,7 @@ Inventory.init(
         type: DataTypes.STRING,
         allowNull: true,
     },
-    vin: {
-        type: DataTypes.STRING,
-        allowNull: true,
-    },
+
 
 
 },
