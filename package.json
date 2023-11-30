@@ -12,5 +12,12 @@
   "license": "ISC",
   "dependencies": {
     "eslint": "^8.54.0"
+    "bcrypt": "^5.0.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "handlebars": "^4.7.6",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.3.5"
   }
 }
