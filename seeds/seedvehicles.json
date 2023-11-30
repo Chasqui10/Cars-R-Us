@@ -1,0 +1,1415 @@
+[
+  {
+    "objectId": "VXKZNum2v4",
+    "year": 2020,
+    "make": "Subaru",
+    "model": "BRZ",
+    "category": "Coupe",
+    "createdAt": "2020-01-27T20:44:18.006Z",
+    "updatedAt": "2020-01-27T20:44:18.006Z"
+  },
+  {
+    "objectId": "ddiUDdlHma",
+    "year": 2020,
+    "make": "Subaru",
+    "model": "WRX",
+    "category": "Sedan",
+    "createdAt": "2020-01-27T20:44:18.007Z",
+    "updatedAt": "2020-01-27T20:44:18.007Z"
+  },
+  {
+    "objectId": "8nFlIZ8ixN",
+    "year": 2020,
+    "make": "Subaru",
+    "model": "Impreza",
+    "category": "Wagon, Sedan",
+    "createdAt": "2020-01-27T20:44:18.007Z",
+    "updatedAt": "2020-01-27T20:44:18.007Z"
+  },
+  {
+    "objectId": "TlwQS7c839",
+    "year": 2020,
+    "make": "Subaru",
+    "model": "Ascent",
+    "category": "SUV",
+    "createdAt": "2020-01-27T20:44:18.006Z",
+    "updatedAt": "2020-01-27T20:44:18.006Z"
+  },
+  {
+    "objectId": "wlZ7oN49bD",
+    "year": 2020,
+    "make": "Subaru",
+    "model": "Legacy",
+    "category": "Sedan",
+    "createdAt": "2020-01-27T20:44:18.007Z",
+    "updatedAt": "2020-01-27T20:44:18.007Z"
+  },
+  {
+    "objectId": "h6CUCvtOxH",
+    "year": 2020,
+    "make": "Subaru",
+    "model": "Crosstrek",
+    "category": "SUV",
+    "createdAt": "2020-01-27T20:44:18.006Z",
+    "updatedAt": "2020-01-27T20:44:18.006Z"
+  },
+  {
+    "objectId": "U0OkQ1Vufy",
+    "year": 2020,
+    "make": "Subaru",
+    "model": "Forester",
+    "category": "SUV",
+    "createdAt": "2020-01-27T20:44:18.006Z",
+    "updatedAt": "2020-01-27T20:44:18.006Z"
+  },
+  {
+    "objectId": "YL5KuTEDUx",
+    "year": 2020,
+    "make": "Subaru",
+    "model": "Outback",
+    "category": "SUV",
+    "createdAt": "2020-01-27T20:44:18.007Z",
+    "updatedAt": "2020-01-27T20:44:18.007Z"
+  },
+  {
+    "objectId": "meJ2Htj5LI",
+    "year": 2019,
+    "make": "Subaru",
+    "model": "Crosstrek",
+    "category": "SUV",
+    "createdAt": "2020-01-27T20:44:18.152Z",
+    "updatedAt": "2020-01-27T20:44:18.152Z"
+  },
+  {
+    "objectId": "chqvhgYgXB",
+    "year": 2019,
+    "make": "Subaru",
+    "model": "WRX",
+    "category": "Sedan",
+    "createdAt": "2020-01-27T20:44:18.152Z",
+    "updatedAt": "2020-01-27T20:44:18.152Z"
+  },
+  {
+    "objectId": "SvxW9ktwmb",
+    "year": 2019,
+    "make": "Subaru",
+    "model": "BRZ",
+    "category": "Coupe",
+    "createdAt": "2020-01-27T20:44:18.152Z",
+    "updatedAt": "2020-01-27T20:44:18.152Z"
+  },
+  {
+    "objectId": "NXl6FesVCQ",
+    "year": 2019,
+    "make": "Subaru",
+    "model": "Impreza",
+    "category": "Sedan, Wagon",
+    "createdAt": "2020-01-27T20:44:18.152Z",
+    "updatedAt": "2020-01-27T20:44:18.152Z"
+  },
+  {
+    "objectId": "HbMuki1brk",
+    "year": 2019,
+    "make": "Subaru",
+    "model": "Legacy",
+    "category": "Sedan",
+    "createdAt": "2020-01-27T20:44:18.152Z",
+    "updatedAt": "2020-01-27T20:44:18.152Z"
+  },
+  {
+    "objectId": "Dui3Bb1al2",
+    "year": 2019,
+    "make": "Subaru",
+    "model": "Forester",
+    "category": "SUV",
+    "createdAt": "2020-01-27T20:44:18.152Z",
+    "updatedAt": "2020-01-27T20:44:18.152Z"
+  },
+  {
+    "objectId": "k4In1FbszX",
+    "year": 2019,
+    "make": "Subaru",
+    "model": "Ascent",
+    "category": "SUV",
+    "createdAt": "2020-01-27T20:44:18.152Z",
+    "updatedAt": "2020-01-27T20:44:18.152Z"
+  },
+  {
+    "objectId": "wf5Rj6USih",
+    "year": 2019,
+    "make": "Subaru",
+    "model": "Outback",
+    "category": "SUV",
+    "createdAt": "2020-01-27T20:44:18.152Z",
+    "updatedAt": "2020-01-27T20:44:18.152Z"
+  },
+  {
+    "objectId": "DyW5SGWCZh",
+    "year": 2018,
+    "make": "Subaru",
+    "model": "Crosstrek",
+    "category": "SUV",
+    "createdAt": "2020-01-27T20:44:18.330Z",
+    "updatedAt": "2020-01-27T20:44:18.330Z"
+  },
+  {
+    "objectId": "NRd4F8DKlc",
+    "year": 2018,
+    "make": "Subaru",
+    "model": "Forester",
+    "category": "SUV",
+    "createdAt": "2020-01-27T20:44:18.330Z",
+    "updatedAt": "2020-01-27T20:44:18.330Z"
+  },
+  {
+    "objectId": "BIbFIPl2HG",
+    "year": 2018,
+    "make": "Subaru",
+    "model": "WRX",
+    "category": "Sedan",
+    "createdAt": "2020-01-27T20:44:18.330Z",
+    "updatedAt": "2020-01-27T20:44:18.330Z"
+  },
+  {
+    "objectId": "58ttTh7bAQ",
+    "year": 2018,
+    "make": "Subaru",
+    "model": "Impreza",
+    "category": "Wagon, Sedan",
+    "createdAt": "2020-01-27T20:44:18.330Z",
+    "updatedAt": "2020-01-27T20:44:18.330Z"
+  },
+  {
+    "objectId": "RrCG150xWH",
+    "year": 2018,
+    "make": "Subaru",
+    "model": "BRZ",
+    "category": "Coupe",
+    "createdAt": "2020-01-27T20:44:18.330Z",
+    "updatedAt": "2020-01-27T20:44:18.330Z"
+  },
+  {
+    "objectId": "5mXoNQtbf8",
+    "year": 2018,
+    "make": "Subaru",
+    "model": "Legacy",
+    "category": "Sedan",
+    "createdAt": "2020-01-27T20:44:18.330Z",
+    "updatedAt": "2020-01-27T20:44:18.330Z"
+  },
+  {
+    "objectId": "IRyHp5AU2Z",
+    "year": 2018,
+    "make": "Subaru",
+    "model": "Outback",
+    "category": "SUV",
+    "createdAt": "2020-01-27T20:44:18.330Z",
+    "updatedAt": "2020-01-27T20:44:18.330Z"
+  },
+  {
+    "objectId": "iLXFLoh20Q",
+    "year": 2017,
+    "make": "Subaru",
+    "model": "Forester",
+    "category": "SUV",
+    "createdAt": "2020-01-27T20:44:18.477Z",
+    "updatedAt": "2020-01-27T20:44:18.477Z"
+  },
+  {
+    "objectId": "7zeTq2vATU",
+    "year": 2017,
+    "make": "Subaru",
+    "model": "Outback",
+    "category": "SUV",
+    "createdAt": "2020-01-27T20:44:18.477Z",
+    "updatedAt": "2020-01-27T20:44:18.477Z"
+  },
+  {
+    "objectId": "SwulLbPvoB",
+    "year": 2017,
+    "make": "Subaru",
+    "model": "Impreza",
+    "category": "Wagon, Sedan",
+    "createdAt": "2020-01-27T20:44:18.477Z",
+    "updatedAt": "2020-01-27T20:44:18.477Z"
+  },
+  {
+    "objectId": "J5KevBlkzQ",
+    "year": 2017,
+    "make": "Subaru",
+    "model": "BRZ",
+    "category": "Coupe",
+    "createdAt": "2020-01-27T20:44:18.477Z",
+    "updatedAt": "2020-01-27T20:44:18.477Z"
+  },
+  {
+    "objectId": "LQvvaxLuBM",
+    "year": 2017,
+    "make": "Subaru",
+    "model": "Crosstrek",
+    "category": "SUV",
+    "createdAt": "2020-01-27T20:44:18.477Z",
+    "updatedAt": "2020-01-27T20:44:18.477Z"
+  },
+  {
+    "objectId": "H7fvU5GPnq",
+    "year": 2017,
+    "make": "Subaru",
+    "model": "Legacy",
+    "category": "Sedan",
+    "createdAt": "2020-01-27T20:44:18.477Z",
+    "updatedAt": "2020-01-27T20:44:18.477Z"
+  },
+  {
+    "objectId": "4M8HIAVn11",
+    "year": 2017,
+    "make": "Subaru",
+    "model": "WRX",
+    "category": "Sedan",
+    "createdAt": "2020-01-27T20:44:18.477Z",
+    "updatedAt": "2020-01-27T20:44:18.477Z"
+  },
+  {
+    "objectId": "PQlpOd3OLD",
+    "year": 2016,
+    "make": "Subaru",
+    "model": "BRZ",
+    "category": "Coupe",
+    "createdAt": "2020-01-27T20:44:18.615Z",
+    "updatedAt": "2020-01-27T20:44:18.615Z"
+  },
+  {
+    "objectId": "8dfVz1Hm5y",
+    "year": 2016,
+    "make": "Subaru",
+    "model": "WRX",
+    "category": "Sedan",
+    "createdAt": "2020-01-27T20:44:18.615Z",
+    "updatedAt": "2020-01-27T20:44:18.615Z"
+  },
+  {
+    "objectId": "mxmuHp0QBT",
+    "year": 2016,
+    "make": "Subaru",
+    "model": "Impreza",
+    "category": "Wagon, Sedan",
+    "createdAt": "2020-01-27T20:44:18.615Z",
+    "updatedAt": "2020-01-27T20:44:18.615Z"
+  },
+  {
+    "objectId": "pQHoqVjUfU",
+    "year": 2016,
+    "make": "Subaru",
+    "model": "Forester",
+    "category": "SUV",
+    "createdAt": "2020-01-27T20:44:18.615Z",
+    "updatedAt": "2020-01-27T20:44:18.615Z"
+  },
+  {
+    "objectId": "4DlXh8e43B",
+    "year": 2016,
+    "make": "Subaru",
+    "model": "Legacy",
+    "category": "Sedan",
+    "createdAt": "2020-01-27T20:44:18.615Z",
+    "updatedAt": "2020-01-27T20:44:18.615Z"
+  },
+  {
+    "objectId": "IU4Xw06qeX",
+    "year": 2016,
+    "make": "Subaru",
+    "model": "Crosstrek",
+    "category": "SUV",
+    "createdAt": "2020-01-27T20:44:18.615Z",
+    "updatedAt": "2020-01-27T20:44:18.615Z"
+  },
+  {
+    "objectId": "Tz0rYbyLOR",
+    "year": 2016,
+    "make": "Subaru",
+    "model": "Outback",
+    "category": "SUV",
+    "createdAt": "2020-01-27T20:44:18.615Z",
+    "updatedAt": "2020-01-27T20:44:18.615Z"
+  },
+  {
+    "objectId": "JSVtotnir1",
+    "year": 2015,
+    "make": "Subaru",
+    "model": "XV Crosstrek",
+    "category": "SUV",
+    "createdAt": "2020-01-27T20:44:18.756Z",
+    "updatedAt": "2020-01-27T20:44:18.756Z"
+  },
+  {
+    "objectId": "TEsUn0SVZz",
+    "year": 2015,
+    "make": "Subaru",
+    "model": "Impreza",
+    "category": "Sedan, Wagon",
+    "createdAt": "2020-01-27T20:44:18.756Z",
+    "updatedAt": "2020-01-27T20:44:18.756Z"
+  },
+  {
+    "objectId": "caGqqboYMJ",
+    "year": 2015,
+    "make": "Subaru",
+    "model": "BRZ",
+    "category": "Coupe",
+    "createdAt": "2020-01-27T20:44:18.756Z",
+    "updatedAt": "2020-01-27T20:44:18.756Z"
+  },
+  {
+    "objectId": "0o5Kn4XRbN",
+    "year": 2015,
+    "make": "Subaru",
+    "model": "Legacy",
+    "category": "Sedan",
+    "createdAt": "2020-01-27T20:44:18.756Z",
+    "updatedAt": "2020-01-27T20:44:18.756Z"
+  },
+  {
+    "objectId": "qvl1MxTQL5",
+    "year": 2015,
+    "make": "Subaru",
+    "model": "WRX",
+    "category": "Sedan",
+    "createdAt": "2020-01-27T20:44:18.756Z",
+    "updatedAt": "2020-01-27T20:44:18.756Z"
+  },
+  {
+    "objectId": "t0HgEMff5p",
+    "year": 2015,
+    "make": "Subaru",
+    "model": "Outback",
+    "category": "SUV",
+    "createdAt": "2020-01-27T20:44:18.756Z",
+    "updatedAt": "2020-01-27T20:44:18.756Z"
+  },
+  {
+    "objectId": "cpSGR1WdpG",
+    "year": 2015,
+    "make": "Subaru",
+    "model": "Forester",
+    "category": "SUV",
+    "createdAt": "2020-01-27T20:44:18.756Z",
+    "updatedAt": "2020-01-27T20:44:18.756Z"
+  },
+  {
+    "objectId": "1d5zkmB6CB",
+    "year": 2014,
+    "make": "Subaru",
+    "model": "Tribeca",
+    "category": "SUV",
+    "createdAt": "2020-01-27T20:44:18.900Z",
+    "updatedAt": "2020-01-27T20:44:18.900Z"
+  },
+  {
+    "objectId": "RJC2LbZlFI",
+    "year": 2014,
+    "make": "Subaru",
+    "model": "BRZ",
+    "category": "Coupe",
+    "createdAt": "2020-01-27T20:44:18.898Z",
+    "updatedAt": "2020-01-27T20:44:18.898Z"
+  },
+  {
+    "objectId": "xxQTqo1BS2",
+    "year": 2014,
+    "make": "Subaru",
+    "model": "Legacy",
+    "category": "Sedan",
+    "createdAt": "2020-01-27T20:44:18.899Z",
+    "updatedAt": "2020-01-27T20:44:18.899Z"
+  },
+  {
+    "objectId": "EEdNCDmpP3",
+    "year": 2014,
+    "make": "Subaru",
+    "model": "Impreza",
+    "category": "Sedan, Wagon",
+    "createdAt": "2020-01-27T20:44:18.899Z",
+    "updatedAt": "2020-01-27T20:44:18.899Z"
+  },
+  {
+    "objectId": "3v997pCBfS",
+    "year": 2014,
+    "make": "Subaru",
+    "model": "Forester",
+    "category": "SUV",
+    "createdAt": "2020-01-27T20:44:18.898Z",
+    "updatedAt": "2020-01-27T20:44:18.898Z"
+  },
+  {
+    "objectId": "jLU1P4Nvpv",
+    "year": 2014,
+    "make": "Subaru",
+    "model": "XV Crosstrek",
+    "category": "SUV",
+    "createdAt": "2020-01-27T20:44:18.900Z",
+    "updatedAt": "2020-01-27T20:44:18.900Z"
+  },
+  {
+    "objectId": "rh4B7cMXjG",
+    "year": 2014,
+    "make": "Subaru",
+    "model": "Outback",
+    "category": "Wagon",
+    "createdAt": "2020-01-27T20:44:18.900Z",
+    "updatedAt": "2020-01-27T20:44:18.900Z"
+  },
+  {
+    "objectId": "kp9GqTs2en",
+    "year": 2013,
+    "make": "Subaru",
+    "model": "BRZ",
+    "category": "Coupe",
+    "createdAt": "2020-01-27T20:44:19.009Z",
+    "updatedAt": "2020-01-27T20:44:19.009Z"
+  },
+  {
+    "objectId": "8S0Up35Xis",
+    "year": 2013,
+    "make": "Subaru",
+    "model": "XV Crosstrek",
+    "category": "SUV",
+    "createdAt": "2020-01-27T20:44:19.009Z",
+    "updatedAt": "2020-01-27T20:44:19.009Z"
+  },
+  {
+    "objectId": "Qymjmgy6yg",
+    "year": 2013,
+    "make": "Subaru",
+    "model": "Impreza",
+    "category": "Sedan, Wagon",
+    "createdAt": "2020-01-27T20:44:19.009Z",
+    "updatedAt": "2020-01-27T20:44:19.009Z"
+  },
+  {
+    "objectId": "Du2UeOVUe6",
+    "year": 2013,
+    "make": "Subaru",
+    "model": "Forester",
+    "category": "SUV",
+    "createdAt": "2020-01-27T20:44:19.009Z",
+    "updatedAt": "2020-01-27T20:44:19.009Z"
+  },
+  {
+    "objectId": "gq2WrtYwGC",
+    "year": 2013,
+    "make": "Subaru",
+    "model": "Legacy",
+    "category": "Sedan",
+    "createdAt": "2020-01-27T20:44:19.009Z",
+    "updatedAt": "2020-01-27T20:44:19.009Z"
+  },
+  {
+    "objectId": "AL4d4Lr9yM",
+    "year": 2013,
+    "make": "Subaru",
+    "model": "Outback",
+    "category": "Wagon",
+    "createdAt": "2020-01-27T20:44:19.009Z",
+    "updatedAt": "2020-01-27T20:44:19.009Z"
+  },
+  {
+    "objectId": "YMJo4dlDWi",
+    "year": 2013,
+    "make": "Subaru",
+    "model": "Tribeca",
+    "category": "SUV",
+    "createdAt": "2020-01-27T20:44:19.009Z",
+    "updatedAt": "2020-01-27T20:44:19.009Z"
+  },
+  {
+    "objectId": "FaMUT5gIYL",
+    "year": 2012,
+    "make": "Subaru",
+    "model": "Impreza",
+    "category": "Sedan, Wagon",
+    "createdAt": "2020-01-27T20:44:19.155Z",
+    "updatedAt": "2020-01-27T20:44:19.155Z"
+  },
+  {
+    "objectId": "zF17QZcwc2",
+    "year": 2012,
+    "make": "Subaru",
+    "model": "Tribeca",
+    "category": "SUV",
+    "createdAt": "2020-01-27T20:44:19.155Z",
+    "updatedAt": "2020-01-27T20:44:19.155Z"
+  },
+  {
+    "objectId": "HVrq0alGTU",
+    "year": 2012,
+    "make": "Subaru",
+    "model": "Outback",
+    "category": "Wagon",
+    "createdAt": "2020-01-27T20:44:19.155Z",
+    "updatedAt": "2020-01-27T20:44:19.155Z"
+  },
+  {
+    "objectId": "FqHILXH8PD",
+    "year": 2012,
+    "make": "Subaru",
+    "model": "Forester",
+    "category": "SUV",
+    "createdAt": "2020-01-27T20:44:19.155Z",
+    "updatedAt": "2020-01-27T20:44:19.155Z"
+  },
+  {
+    "objectId": "RE3JvirvFe",
+    "year": 2012,
+    "make": "Subaru",
+    "model": "Legacy",
+    "category": "Sedan",
+    "createdAt": "2020-01-27T20:44:19.155Z",
+    "updatedAt": "2020-01-27T20:44:19.155Z"
+  },
+  {
+    "objectId": "1CLDi9tZBG",
+    "year": 2011,
+    "make": "Subaru",
+    "model": "Legacy",
+    "category": "Sedan",
+    "createdAt": "2020-01-27T20:44:19.266Z",
+    "updatedAt": "2020-01-27T20:44:19.266Z"
+  },
+  {
+    "objectId": "mGOVe6nncX",
+    "year": 2011,
+    "make": "Subaru",
+    "model": "Forester",
+    "category": "SUV",
+    "createdAt": "2020-01-27T20:44:19.266Z",
+    "updatedAt": "2020-01-27T20:44:19.266Z"
+  },
+  {
+    "objectId": "xLyfp8RDCd",
+    "year": 2011,
+    "make": "Subaru",
+    "model": "Impreza",
+    "category": "Wagon, Sedan",
+    "createdAt": "2020-01-27T20:44:19.266Z",
+    "updatedAt": "2020-01-27T20:44:19.266Z"
+  },
+  {
+    "objectId": "2SWf3HfdAs",
+    "year": 2011,
+    "make": "Subaru",
+    "model": "Tribeca",
+    "category": "SUV",
+    "createdAt": "2020-01-27T20:44:19.266Z",
+    "updatedAt": "2020-01-27T20:44:19.266Z"
+  },
+  {
+    "objectId": "8TjFhnA0Ih",
+    "year": 2011,
+    "make": "Subaru",
+    "model": "Outback",
+    "category": "Wagon",
+    "createdAt": "2020-01-27T20:44:19.266Z",
+    "updatedAt": "2020-01-27T20:44:19.266Z"
+  },
+  {
+    "objectId": "1YMj2Y3Mer",
+    "year": 2010,
+    "make": "Subaru",
+    "model": "Legacy",
+    "category": "Sedan",
+    "createdAt": "2020-01-27T20:44:19.397Z",
+    "updatedAt": "2020-01-27T20:44:19.397Z"
+  },
+  {
+    "objectId": "TxP7zNVB99",
+    "year": 2010,
+    "make": "Subaru",
+    "model": "Forester",
+    "category": "SUV",
+    "createdAt": "2020-01-27T20:44:19.397Z",
+    "updatedAt": "2020-01-27T20:44:19.397Z"
+  },
+  {
+    "objectId": "DcWWtQubnR",
+    "year": 2010,
+    "make": "Subaru",
+    "model": "Impreza",
+    "category": "Sedan, Wagon",
+    "createdAt": "2020-01-27T20:44:19.397Z",
+    "updatedAt": "2020-01-27T20:44:19.397Z"
+  },
+  {
+    "objectId": "1tOzCIS2P1",
+    "year": 2010,
+    "make": "Subaru",
+    "model": "Tribeca",
+    "category": "SUV",
+    "createdAt": "2020-01-27T20:44:19.397Z",
+    "updatedAt": "2020-01-27T20:44:19.397Z"
+  },
+  {
+    "objectId": "ky4ccoPScK",
+    "year": 2010,
+    "make": "Subaru",
+    "model": "Outback",
+    "category": "Wagon",
+    "createdAt": "2020-01-27T20:44:19.397Z",
+    "updatedAt": "2020-01-27T20:44:19.397Z"
+  },
+  {
+    "objectId": "nZMeRnMvKe",
+    "year": 2009,
+    "make": "Subaru",
+    "model": "Tribeca",
+    "category": "SUV",
+    "createdAt": "2020-01-27T20:44:19.511Z",
+    "updatedAt": "2020-01-27T20:44:19.511Z"
+  },
+  {
+    "objectId": "49ReamKMZG",
+    "year": 2009,
+    "make": "Subaru",
+    "model": "Forester",
+    "category": "SUV",
+    "createdAt": "2020-01-27T20:44:19.511Z",
+    "updatedAt": "2020-01-27T20:44:19.511Z"
+  },
+  {
+    "objectId": "6YwTqdtSvG",
+    "year": 2009,
+    "make": "Subaru",
+    "model": "Legacy",
+    "category": "Sedan",
+    "createdAt": "2020-01-27T20:44:19.511Z",
+    "updatedAt": "2020-01-27T20:44:19.511Z"
+  },
+  {
+    "objectId": "fT630t9ihi",
+    "year": 2009,
+    "make": "Subaru",
+    "model": "Impreza",
+    "category": "Sedan, Wagon",
+    "createdAt": "2020-01-27T20:44:19.511Z",
+    "updatedAt": "2020-01-27T20:44:19.511Z"
+  },
+  {
+    "objectId": "CKG5NMcsxZ",
+    "year": 2009,
+    "make": "Subaru",
+    "model": "Outback",
+    "category": "Wagon",
+    "createdAt": "2020-01-27T20:44:19.511Z",
+    "updatedAt": "2020-01-27T20:44:19.511Z"
+  },
+  {
+    "objectId": "cIeo3bJ3TY",
+    "year": 2008,
+    "make": "Subaru",
+    "model": "Tribeca",
+    "category": "SUV",
+    "createdAt": "2020-01-27T20:44:19.666Z",
+    "updatedAt": "2020-01-27T20:44:19.666Z"
+  },
+  {
+    "objectId": "pEpKLRGlKC",
+    "year": 2008,
+    "make": "Subaru",
+    "model": "Legacy",
+    "category": "Sedan",
+    "createdAt": "2020-01-27T20:44:19.666Z",
+    "updatedAt": "2020-01-27T20:44:19.666Z"
+  },
+  {
+    "objectId": "C9NNkF7HFl",
+    "year": 2008,
+    "make": "Subaru",
+    "model": "Outback",
+    "category": "Wagon",
+    "createdAt": "2020-01-27T20:44:19.666Z",
+    "updatedAt": "2020-01-27T20:44:19.666Z"
+  },
+  {
+    "objectId": "LxItrHSD0Y",
+    "year": 2008,
+    "make": "Subaru",
+    "model": "Impreza",
+    "category": "Sedan, Wagon",
+    "createdAt": "2020-01-27T20:44:19.666Z",
+    "updatedAt": "2020-01-27T20:44:19.666Z"
+  },
+  {
+    "objectId": "rvkCIc3kCf",
+    "year": 2008,
+    "make": "Subaru",
+    "model": "Forester",
+    "category": "SUV",
+    "createdAt": "2020-01-27T20:44:19.666Z",
+    "updatedAt": "2020-01-27T20:44:19.666Z"
+  },
+  {
+    "objectId": "nVvqR4u6pG",
+    "year": 2007,
+    "make": "Subaru",
+    "model": "Legacy",
+    "category": "Sedan, Wagon",
+    "createdAt": "2020-01-27T20:44:19.826Z",
+    "updatedAt": "2020-01-27T20:44:19.826Z"
+  },
+  {
+    "objectId": "X996eBEtCU",
+    "year": 2007,
+    "make": "Subaru",
+    "model": "Impreza",
+    "category": "Sedan, Wagon",
+    "createdAt": "2020-01-27T20:44:19.826Z",
+    "updatedAt": "2020-01-27T20:44:19.826Z"
+  },
+  {
+    "objectId": "H0FhjHCgeD",
+    "year": 2007,
+    "make": "Subaru",
+    "model": "Forester",
+    "category": "SUV",
+    "createdAt": "2020-01-27T20:44:19.826Z",
+    "updatedAt": "2020-01-27T20:44:19.826Z"
+  },
+  {
+    "objectId": "q7rEanlGpp",
+    "year": 2007,
+    "make": "Subaru",
+    "model": "B9 Tribeca",
+    "category": "SUV",
+    "createdAt": "2020-01-27T20:44:19.826Z",
+    "updatedAt": "2020-01-27T20:44:19.826Z"
+  },
+  {
+    "objectId": "mDSuUbybHB",
+    "year": 2007,
+    "make": "Subaru",
+    "model": "Outback",
+    "category": "Wagon, Sedan",
+    "createdAt": "2020-01-27T20:44:19.826Z",
+    "updatedAt": "2020-01-27T20:44:19.826Z"
+  },
+  {
+    "objectId": "YzhDR0haM3",
+    "year": 2006,
+    "make": "Subaru",
+    "model": "Baja",
+    "category": "Pickup",
+    "createdAt": "2020-01-27T20:44:19.938Z",
+    "updatedAt": "2020-01-27T20:44:19.938Z"
+  },
+  {
+    "objectId": "KIxsfASkTi",
+    "year": 2006,
+    "make": "Subaru",
+    "model": "B9 Tribeca",
+    "category": "SUV",
+    "createdAt": "2020-01-27T20:44:19.938Z",
+    "updatedAt": "2020-01-27T20:44:19.938Z"
+  },
+  {
+    "objectId": "wcs32W3l4l",
+    "year": 2006,
+    "make": "Subaru",
+    "model": "Forester",
+    "category": "SUV",
+    "createdAt": "2020-01-27T20:44:19.938Z",
+    "updatedAt": "2020-01-27T20:44:19.938Z"
+  },
+  {
+    "objectId": "ALTMtIQpId",
+    "year": 2006,
+    "make": "Subaru",
+    "model": "Outback",
+    "category": "Sedan, Wagon",
+    "createdAt": "2020-01-27T20:44:19.938Z",
+    "updatedAt": "2020-01-27T20:44:19.938Z"
+  },
+  {
+    "objectId": "wRh1Lh1JN9",
+    "year": 2006,
+    "make": "Subaru",
+    "model": "Impreza",
+    "category": "Wagon, Sedan",
+    "createdAt": "2020-01-27T20:44:19.938Z",
+    "updatedAt": "2020-01-27T20:44:19.938Z"
+  },
+  {
+    "objectId": "Tqxb1qNBC2",
+    "year": 2006,
+    "make": "Subaru",
+    "model": "Legacy",
+    "category": "Wagon, Sedan",
+    "createdAt": "2020-01-27T20:44:19.938Z",
+    "updatedAt": "2020-01-27T20:44:19.938Z"
+  },
+  {
+    "objectId": "OPYDdRNyP9",
+    "year": 2005,
+    "make": "Subaru",
+    "model": "Forester",
+    "category": "SUV",
+    "createdAt": "2020-01-27T20:44:20.075Z",
+    "updatedAt": "2020-01-27T20:44:20.075Z"
+  },
+  {
+    "objectId": "1VPs7Nv2Hm",
+    "year": 2005,
+    "make": "Subaru",
+    "model": "Baja",
+    "category": "Pickup",
+    "createdAt": "2020-01-27T20:44:20.075Z",
+    "updatedAt": "2020-01-27T20:44:20.075Z"
+  },
+  {
+    "objectId": "6v9sa9zwGz",
+    "year": 2005,
+    "make": "Subaru",
+    "model": "Impreza",
+    "category": "Sedan, Wagon",
+    "createdAt": "2020-01-27T20:44:20.075Z",
+    "updatedAt": "2020-01-27T20:44:20.075Z"
+  },
+  {
+    "objectId": "4oInvsn55w",
+    "year": 2005,
+    "make": "Subaru",
+    "model": "Legacy",
+    "category": "Sedan, Wagon",
+    "createdAt": "2020-01-27T20:44:20.075Z",
+    "updatedAt": "2020-01-27T20:44:20.075Z"
+  },
+  {
+    "objectId": "6IjCmiitH8",
+    "year": 2005,
+    "make": "Subaru",
+    "model": "Outback",
+    "category": "Wagon, Sedan",
+    "createdAt": "2020-01-27T20:44:20.075Z",
+    "updatedAt": "2020-01-27T20:44:20.075Z"
+  },
+  {
+    "objectId": "5Qf074Ikh9",
+    "year": 2004,
+    "make": "Subaru",
+    "model": "Legacy",
+    "category": "Sedan, Wagon",
+    "createdAt": "2020-01-27T20:44:20.195Z",
+    "updatedAt": "2020-01-27T20:44:20.195Z"
+  },
+  {
+    "objectId": "wMHBMpAIad",
+    "year": 2004,
+    "make": "Subaru",
+    "model": "Outback",
+    "category": "Sedan, Wagon",
+    "createdAt": "2020-01-27T20:44:20.195Z",
+    "updatedAt": "2020-01-27T20:44:20.195Z"
+  },
+  {
+    "objectId": "FZ7yPrzYRj",
+    "year": 2004,
+    "make": "Subaru",
+    "model": "Impreza",
+    "category": "Wagon, Sedan",
+    "createdAt": "2020-01-27T20:44:20.195Z",
+    "updatedAt": "2020-01-27T20:44:20.195Z"
+  },
+  {
+    "objectId": "AA4sYuwnmI",
+    "year": 2004,
+    "make": "Subaru",
+    "model": "Baja",
+    "category": "Pickup",
+    "createdAt": "2020-01-27T20:44:20.195Z",
+    "updatedAt": "2020-01-27T20:44:20.195Z"
+  },
+  {
+    "objectId": "cHPkZRGGeO",
+    "year": 2004,
+    "make": "Subaru",
+    "model": "Forester",
+    "category": "SUV",
+    "createdAt": "2020-01-27T20:44:20.195Z",
+    "updatedAt": "2020-01-27T20:44:20.195Z"
+  },
+  {
+    "objectId": "ifQ7NHgty1",
+    "year": 2003,
+    "make": "Subaru",
+    "model": "Outback",
+    "category": "Wagon, Sedan",
+    "createdAt": "2020-01-27T20:44:20.304Z",
+    "updatedAt": "2020-01-27T20:44:20.304Z"
+  },
+  {
+    "objectId": "oh1aEmyOSh",
+    "year": 2003,
+    "make": "Subaru",
+    "model": "Forester",
+    "category": "SUV",
+    "createdAt": "2020-01-27T20:44:20.304Z",
+    "updatedAt": "2020-01-27T20:44:20.304Z"
+  },
+  {
+    "objectId": "DEC0OC2DCr",
+    "year": 2003,
+    "make": "Subaru",
+    "model": "Impreza",
+    "category": "Wagon, Sedan",
+    "createdAt": "2020-01-27T20:44:20.304Z",
+    "updatedAt": "2020-01-27T20:44:20.304Z"
+  },
+  {
+    "objectId": "UFBW0p6LTL",
+    "year": 2003,
+    "make": "Subaru",
+    "model": "Legacy",
+    "category": "Sedan, Wagon",
+    "createdAt": "2020-01-27T20:44:20.304Z",
+    "updatedAt": "2020-01-27T20:44:20.304Z"
+  },
+  {
+    "objectId": "grX7LApMSE",
+    "year": 2003,
+    "make": "Subaru",
+    "model": "Baja",
+    "category": "Pickup",
+    "createdAt": "2020-01-27T20:44:20.304Z",
+    "updatedAt": "2020-01-27T20:44:20.304Z"
+  },
+  {
+    "objectId": "MRrrXZSTU2",
+    "year": 2002,
+    "make": "Subaru",
+    "model": "Legacy",
+    "category": "Wagon, Sedan",
+    "createdAt": "2020-01-27T20:44:20.426Z",
+    "updatedAt": "2020-01-27T20:44:20.426Z"
+  },
+  {
+    "objectId": "CYEH4PO3Ve",
+    "year": 2002,
+    "make": "Subaru",
+    "model": "Impreza",
+    "category": "Wagon, Sedan",
+    "createdAt": "2020-01-27T20:44:20.426Z",
+    "updatedAt": "2020-01-27T20:44:20.426Z"
+  },
+  {
+    "objectId": "FHu6jbnnGz",
+    "year": 2002,
+    "make": "Subaru",
+    "model": "Outback",
+    "category": "Wagon, Sedan",
+    "createdAt": "2020-01-27T20:44:20.426Z",
+    "updatedAt": "2020-01-27T20:44:20.426Z"
+  },
+  {
+    "objectId": "JK5a6EOhPq",
+    "year": 2002,
+    "make": "Subaru",
+    "model": "Forester",
+    "category": "SUV",
+    "createdAt": "2020-01-27T20:44:20.426Z",
+    "updatedAt": "2020-01-27T20:44:20.426Z"
+  },
+  {
+    "objectId": "4DMxyHktrC",
+    "year": 2001,
+    "make": "Subaru",
+    "model": "Impreza",
+    "category": "Wagon, Sedan, Coupe",
+    "createdAt": "2020-01-27T20:44:20.536Z",
+    "updatedAt": "2020-01-27T20:44:20.536Z"
+  },
+  {
+    "objectId": "6WM0Zv7JfJ",
+    "year": 2001,
+    "make": "Subaru",
+    "model": "Legacy",
+    "category": "Sedan, Wagon",
+    "createdAt": "2020-01-27T20:44:20.536Z",
+    "updatedAt": "2020-01-27T20:44:20.536Z"
+  },
+  {
+    "objectId": "sa8CNt6rZ2",
+    "year": 2001,
+    "make": "Subaru",
+    "model": "Outback",
+    "category": "Wagon, Sedan",
+    "createdAt": "2020-01-27T20:44:20.536Z",
+    "updatedAt": "2020-01-27T20:44:20.536Z"
+  },
+  {
+    "objectId": "n9CvUAqu72",
+    "year": 2001,
+    "make": "Subaru",
+    "model": "Forester",
+    "category": "SUV",
+    "createdAt": "2020-01-27T20:44:20.536Z",
+    "updatedAt": "2020-01-27T20:44:20.536Z"
+  },
+  {
+    "objectId": "lcA7xsGdkE",
+    "year": 2000,
+    "make": "Subaru",
+    "model": "Impreza",
+    "category": "Wagon, Sedan, Coupe",
+    "createdAt": "2020-01-27T20:44:20.646Z",
+    "updatedAt": "2020-01-27T20:44:20.646Z"
+  },
+  {
+    "objectId": "i0fpMYxg73",
+    "year": 2000,
+    "make": "Subaru",
+    "model": "Forester",
+    "category": "SUV",
+    "createdAt": "2020-01-27T20:44:20.646Z",
+    "updatedAt": "2020-01-27T20:44:20.646Z"
+  },
+  {
+    "objectId": "pziIoTn3xv",
+    "year": 2000,
+    "make": "Subaru",
+    "model": "Outback",
+    "category": "Wagon, Sedan",
+    "createdAt": "2020-01-27T20:44:20.646Z",
+    "updatedAt": "2020-01-27T20:44:20.646Z"
+  },
+  {
+    "objectId": "98W5HcGbPC",
+    "year": 2000,
+    "make": "Subaru",
+    "model": "Legacy",
+    "category": "Wagon, Sedan",
+    "createdAt": "2020-01-27T20:44:20.646Z",
+    "updatedAt": "2020-01-27T20:44:20.646Z"
+  },
+  {
+    "objectId": "lOsPebnTFG",
+    "year": 1999,
+    "make": "Subaru",
+    "model": "Forester",
+    "category": "SUV",
+    "createdAt": "2020-01-27T20:44:20.758Z",
+    "updatedAt": "2020-01-27T20:44:20.758Z"
+  },
+  {
+    "objectId": "5k2chS7VQ1",
+    "year": 1999,
+    "make": "Subaru",
+    "model": "Impreza",
+    "category": "Sedan, Coupe, Wagon",
+    "createdAt": "2020-01-27T20:44:20.758Z",
+    "updatedAt": "2020-01-27T20:44:20.758Z"
+  },
+  {
+    "objectId": "US6kqpE3Fc",
+    "year": 1999,
+    "make": "Subaru",
+    "model": "Legacy",
+    "category": "Sedan, Wagon",
+    "createdAt": "2020-01-27T20:44:20.758Z",
+    "updatedAt": "2020-01-27T20:44:20.758Z"
+  },
+  {
+    "objectId": "hj1qq26O5C",
+    "year": 1998,
+    "make": "Subaru",
+    "model": "Forester",
+    "category": "SUV",
+    "createdAt": "2020-01-27T20:44:20.872Z",
+    "updatedAt": "2020-01-27T20:44:20.872Z"
+  },
+  {
+    "objectId": "rmy8pQuNVG",
+    "year": 1998,
+    "make": "Subaru",
+    "model": "Impreza",
+    "category": "Sedan, Wagon, Coupe",
+    "createdAt": "2020-01-27T20:44:20.872Z",
+    "updatedAt": "2020-01-27T20:44:20.872Z"
+  },
+  {
+    "objectId": "JQR8F3oJUs",
+    "year": 1998,
+    "make": "Subaru",
+    "model": "Legacy",
+    "category": "Sedan, Wagon",
+    "createdAt": "2020-01-27T20:44:20.872Z",
+    "updatedAt": "2020-01-27T20:44:20.872Z"
+  },
+  {
+    "objectId": "pS56ya0Eyb",
+    "year": 1997,
+    "make": "Subaru",
+    "model": "Impreza",
+    "category": "Coupe, Wagon, Sedan",
+    "createdAt": "2020-01-27T20:44:20.951Z",
+    "updatedAt": "2020-01-27T20:44:20.951Z"
+  },
+  {
+    "objectId": "KLXDp4oUpT",
+    "year": 1997,
+    "make": "Subaru",
+    "model": "Legacy",
+    "category": "Sedan, Wagon",
+    "createdAt": "2020-01-27T20:44:20.951Z",
+    "updatedAt": "2020-01-27T20:44:20.951Z"
+  },
+  {
+    "objectId": "T96sdiIXGS",
+    "year": 1997,
+    "make": "Subaru",
+    "model": "SVX",
+    "category": "Coupe",
+    "createdAt": "2020-01-27T20:44:20.951Z",
+    "updatedAt": "2020-01-27T20:44:20.951Z"
+  },
+  {
+    "objectId": "ddTvh3njF7",
+    "year": 1996,
+    "make": "Subaru",
+    "model": "SVX",
+    "category": "Coupe",
+    "createdAt": "2020-01-27T20:44:21.065Z",
+    "updatedAt": "2020-01-27T20:44:21.065Z"
+  },
+  {
+    "objectId": "ZWP3LTShQe",
+    "year": 1996,
+    "make": "Subaru",
+    "model": "Legacy",
+    "category": "Sedan, Wagon",
+    "createdAt": "2020-01-27T20:44:21.065Z",
+    "updatedAt": "2020-01-27T20:44:21.065Z"
+  },
+  {
+    "objectId": "3yMdrf3xk0",
+    "year": 1996,
+    "make": "Subaru",
+    "model": "Impreza",
+    "category": "Coupe, Sedan, Wagon",
+    "createdAt": "2020-01-27T20:44:21.065Z",
+    "updatedAt": "2020-01-27T20:44:21.065Z"
+  },
+  {
+    "objectId": "kUeqDos8a1",
+    "year": 1995,
+    "make": "Subaru",
+    "model": "Legacy",
+    "category": "Sedan, Wagon",
+    "createdAt": "2020-01-27T20:44:21.178Z",
+    "updatedAt": "2020-01-27T20:44:21.178Z"
+  },
+  {
+    "objectId": "ouw6D94KUR",
+    "year": 1995,
+    "make": "Subaru",
+    "model": "Impreza",
+    "category": "Sedan, Wagon, Coupe",
+    "createdAt": "2020-01-27T20:44:21.178Z",
+    "updatedAt": "2020-01-27T20:44:21.178Z"
+  },
+  {
+    "objectId": "YMFHFGsN9G",
+    "year": 1995,
+    "make": "Subaru",
+    "model": "SVX",
+    "category": "Coupe",
+    "createdAt": "2020-01-27T20:44:21.178Z",
+    "updatedAt": "2020-01-27T20:44:21.178Z"
+  },
+  {
+    "objectId": "YZ20PoOzMm",
+    "year": 1994,
+    "make": "Subaru",
+    "model": "Impreza",
+    "category": "Sedan, Wagon",
+    "createdAt": "2020-01-27T20:44:21.257Z",
+    "updatedAt": "2020-01-27T20:44:21.257Z"
+  },
+  {
+    "objectId": "FFQDOrnFe9",
+    "year": 1994,
+    "make": "Subaru",
+    "model": "Legacy",
+    "category": "Sedan, Wagon",
+    "createdAt": "2020-01-27T20:44:21.257Z",
+    "updatedAt": "2020-01-27T20:44:21.257Z"
+  },
+  {
+    "objectId": "aT8jjkHfXh",
+    "year": 1994,
+    "make": "Subaru",
+    "model": "Loyale",
+    "category": "Wagon",
+    "createdAt": "2020-01-27T20:44:21.257Z",
+    "updatedAt": "2020-01-27T20:44:21.257Z"
+  },
+  {
+    "objectId": "4PvwULVJwh",
+    "year": 1994,
+    "make": "Subaru",
+    "model": "SVX",
+    "category": "Coupe",
+    "createdAt": "2020-01-27T20:44:21.257Z",
+    "updatedAt": "2020-01-27T20:44:21.257Z"
+  },
+  {
+    "objectId": "C39VG3MD6o",
+    "year": 1994,
+    "make": "Subaru",
+    "model": "Justy",
+    "category": "Hatchback",
+    "createdAt": "2020-01-27T20:44:21.257Z",
+    "updatedAt": "2020-01-27T20:44:21.257Z"
+  },
+  {
+    "objectId": "En5JR2aPcY",
+    "year": 1993,
+    "make": "Subaru",
+    "model": "Impreza",
+    "category": "Wagon, Sedan",
+    "createdAt": "2020-01-27T20:44:21.367Z",
+    "updatedAt": "2020-01-27T20:44:21.367Z"
+  },
+  {
+    "objectId": "AQNTui8Nfs",
+    "year": 1993,
+    "make": "Subaru",
+    "model": "Legacy",
+    "category": "Sedan, Wagon",
+    "createdAt": "2020-01-27T20:44:21.367Z",
+    "updatedAt": "2020-01-27T20:44:21.367Z"
+  },
+  {
+    "objectId": "i9XnXvlFvz",
+    "year": 1993,
+    "make": "Subaru",
+    "model": "Justy",
+    "category": "Hatchback",
+    "createdAt": "2020-01-27T20:44:21.367Z",
+    "updatedAt": "2020-01-27T20:44:21.367Z"
+  },
+  {
+    "objectId": "8vVHrR4kaA",
+    "year": 1993,
+    "make": "Subaru",
+    "model": "Loyale",
+    "category": "Sedan, Wagon",
+    "createdAt": "2020-01-27T20:44:21.367Z",
+    "updatedAt": "2020-01-27T20:44:21.367Z"
+  },
+  {
+    "objectId": "KprkBAavk3",
+    "year": 1993,
+    "make": "Subaru",
+    "model": "SVX",
+    "category": "Coupe",
+    "createdAt": "2020-01-27T20:44:21.367Z",
+    "updatedAt": "2020-01-27T20:44:21.367Z"
+  },
+  {
+    "objectId": "FEKfCH7Cxb",
+    "year": 1992,
+    "make": "Subaru",
+    "model": "Legacy",
+    "category": "Sedan, Wagon",
+    "createdAt": "2020-01-27T20:44:21.610Z",
+    "updatedAt": "2020-01-27T20:44:21.610Z"
+  },
+  {
+    "objectId": "Crw064M2TB",
+    "year": 1992,
+    "make": "Subaru",
+    "model": "Justy",
+    "category": "Hatchback",
+    "createdAt": "2020-01-27T20:44:21.610Z",
+    "updatedAt": "2020-01-27T20:44:21.610Z"
+  },
+  {
+    "objectId": "wuKVehbYo3",
+    "year": 1992,
+    "make": "Subaru",
+    "model": "SVX",
+    "category": "Coupe",
+    "createdAt": "2020-01-27T20:44:21.610Z",
+    "updatedAt": "2020-01-27T20:44:21.610Z"
+  },
+  {
+    "objectId": "ogG1bzR8oP",
+    "year": 1992,
+    "make": "Subaru",
+    "model": "Loyale",
+    "category": "Sedan, Wagon",
+    "createdAt": "2020-01-27T20:44:21.610Z",
+    "updatedAt": "2020-01-27T20:44:21.610Z"
+  },
+  {
+    "objectId": "iK9ITB0DHA",
+    "year": 2021,
+    "make": "Subaru",
+    "model": "Crosstrek",
+    "category": "SUV",
+    "createdAt": "2021-04-15T13:38:28.029Z",
+    "updatedAt": "2021-04-15T13:38:28.029Z"
+  },
+  {
+    "objectId": "yERRsZ7XvO",
+    "year": 2021,
+    "make": "Subaru",
+    "model": "Ascent",
+    "category": "SUV",
+    "createdAt": "2021-04-15T13:38:28.029Z",
+    "updatedAt": "2021-04-15T13:38:28.029Z"
+  },
+  {
+    "objectId": "TOQZDuGbrv",
+    "year": 2021,
+    "make": "Subaru",
+    "model": "Impreza",
+    "category": "Wagon,Sedan",
+    "createdAt": "2021-04-15T13:38:28.029Z",
+    "updatedAt": "2021-04-15T13:38:28.029Z"
+  },
+  {
+    "objectId": "XASJgGgTbA",
+    "year": 2021,
+    "make": "Subaru",
+    "model": "Forester",
+    "category": "SUV",
+    "createdAt": "2021-04-15T13:38:28.029Z",
+    "updatedAt": "2021-04-15T13:38:28.029Z"
+  },
+  {
+    "objectId": "JHAIpMiZPo",
+    "year": 2021,
+    "make": "Subaru",
+    "model": "Legacy",
+    "category": "Sedan",
+    "createdAt": "2021-04-15T13:38:28.029Z",
+    "updatedAt": "2021-04-15T13:38:28.029Z"
+  },
+  {
+    "objectId": "5dfAaa7q1q",
+    "year": 2021,
+    "make": "Subaru",
+    "model": "Outback",
+    "category": "SUV",
+    "createdAt": "2021-04-15T13:38:28.029Z",
+    "updatedAt": "2021-04-15T13:38:28.029Z"
+  },
+  {
+    "objectId": "6FBB6rPT7f",
+    "year": 2022,
+    "make": "Subaru",
+    "model": "BRZ",
+    "category": "Coupe",
+    "createdAt": "2021-04-15T13:56:04.353Z",
+    "updatedAt": "2021-04-15T13:56:04.353Z"
+  }
+]
