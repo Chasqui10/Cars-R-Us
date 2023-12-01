@@ -41,6 +41,10 @@ User.init(
             len: [6],
         },
     },
+    sessionToken: {
+        type: DataTypes.STRING,
+        allowNull: true,
+    },
 
     },
     {
