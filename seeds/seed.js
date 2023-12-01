@@ -1,11 +1,11 @@
 //import sequielize connection and models
 const sequelize = require('../config/connection');
-const { User, Vehicles } = require('../models');
+const { User, Vehicles, Inventory} = require('../models');
 
 //create constants from model data
 const users = require('./seeduserdata.json');
 const vehicles = require('./seedvehicles.json');
-
+const inventory = require('./seedinventory.json');
 //seeds the database via function
 const seedDatabase = async () => {
   await sequelize.sync({ force: true });
@@ -18,6 +18,11 @@ const seedDatabase = async () => {
   
     //creates the item data from the seeditemdata.json file
   await Vehicles.bulkCreate(vehicles, {
+    individualHooks: true,
+    returning: true,
+  });
+
+  await Inventory.bulkCreate(inventory, {
     individualHooks: true,
     returning: true,
   });

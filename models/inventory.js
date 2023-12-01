@@ -73,7 +73,14 @@ Inventory.init(
         type: DataTypes.STRING,
         allowNull: true,
     },
-
+    userid: {
+        type: DataTypes.INTEGER,
+        allowNull: true,
+        references: {
+            model: 'user',
+            key: 'userid',
+        },
+    },
 
 
 },
@@ -85,3 +92,5 @@ Inventory.init(
         modelName: 'inventory',
     }
 );
+
+module.exports = Inventory;
