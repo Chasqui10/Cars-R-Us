@@ -1,42 +1,100 @@
-<div class="row">
-  <div class="col-md-6">
-    <h2>Login</h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login and Signup</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #000;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            color: #fff;
+        }
 
-    <form class="form login-form">
-      <div class="form-group">
-        <label for="email-login">email:</label>
-        <input class="form-input" type="text" id="email-login" />
-      </div>
-      <div class="form-group">
-        <label for="password-login">password:</label>
-        <input class="form-input" type="password" id="password-login" />
-      </div>
-      <div class="form-group">
-        <button class="btn btn-primary" type="submit">login</button>
-      </div>
-    </form>
-  </div>
-  <div class="col-md-6">
-    <h2>Signup</h2>
+        .login-container {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 30px; /* Increased padding */
+            width: 350px; /* Increased width */
+            text-align: center;
+        }
 
-    <form class="form signup-form">
-      <div class="form-group">
-        <label for="name-signup">name:</label>
-        <input class="form-input" type="text" id="name-signup" />
-      </div>
-      <div class="form-group">
-        <label for="email-signup">email:</label>
-        <input class="form-input" type="text" id="email-signup" />
-      </div>
-      <div class="form-group">
-        <label for="password-signup">password:</label>
-        <input class="form-input" type="password" id="password-signup" />
-      </div>
-      <div class="form-group">
-        <button class="btn btn-primary" type="submit">signup</button>
-      </div>
-    </form>
-  </div>
-</div>
+        h2 {
+            color: #333;
+            margin-bottom: 20px; /* Increased margin-bottom */
+        }
 
-<script src="./js/login.js"></script>
+        .form-input {
+            width: 100%;
+            padding: 15px; /* Increased padding */
+            margin: 15px 0; /* Increased margin */
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 8px; /* Increased border-radius */
+            outline: none;
+        }
+
+        .btn-primary {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 15px 20px; /* Increased padding */
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="row">
+        <div class="col-md-6">
+            <h2>Login</h2>
+
+            <form class="form login-form">
+                <div class="form-group">
+                    <label for="email-login">Email:</label>
+                    <input class="form-input" type="text" id="email-login" />
+                </div>
+                <div class="form-group">
+                    <label for="password-login">Password:</label>
+                    <input class="form-input" type="password" id="password-login" />
+                </div>
+                <div class="form-group">
+                    <button class="btn btn-primary" type="submit">Login</button>
+                </div>
+            </form>
+        </div>
+        <div class="col-md-6">
+            <h2>Signup</h2>
+
+            <form class="form signup-form">
+                <div class="form-group">
+                    <label for="name-signup">Name:</label>
+                    <input class="form-input" type="text" id="name-signup" />
+                </div>
+                <div class="form-group">
+                    <label for="email-signup">Email:</label>
+                    <input class="form-input" type="text" id="email-signup" />
+                </div>
+                <div class="form-group">
+                    <label for="password-signup">Password:</label>
+                    <input class="form-input" type="password" id="password-signup" />
+                </div>
+                <div class="form-group">
+                    <button class="btn btn-primary" type="submit">Signup</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
