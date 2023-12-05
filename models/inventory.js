@@ -13,6 +13,22 @@ Inventory.init(
         primaryKey: true,
         autoIncrement: true,
     },
+    make: {
+        type: DataTypes.STRING,
+        allowNull: false,
+    },
+    model: {
+        type: DataTypes.STRING,
+        allowNull: false,
+    },
+    category: {
+        type: DataTypes.STRING,
+        allowNull: false,
+    },
+    year: {
+        type: DataTypes.INTEGER,
+        allowNull: false,
+    },
     vin: {
         type: DataTypes.STRING,
         allowNull: true,
