@@ -87,8 +87,7 @@
         .btn:hover {
             background-color: #0056b3;
         }
-
-        .project-list {
+                .project-list {
             max-height: 300px;
             overflow-y: auto;
         }
@@ -129,63 +128,62 @@
         <a href="#">Contact</a>
         <!-- Add more navigation links as needed -->
     </nav>
+    
+<div class="row">
+  <div class="col-auto">
+    <h2>Welcome, {{name}}!</h2>
+  </div>
+</div>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <h2>Welcome to Auto Dealership, {{name}}!</h2>
-            </div>
-        </div>
+<div class="row mt-4">
+  <div class="col-md-6">
+    <h3>Create a New Car Posting:</h3>
 
-        <div class="row mt-4">
-            <div class="col-md-6">
-                <h3>Create a New Listing:</h3>
-                <form class="form new-project-form">
-                    <div class="form-group">
-                        <label for="post-name">Car Model:</label>
-                        <input class="form-input" type="text" id="post-name" name="post-name" />
-                    </div>
-                    <div class="form-group">
-                        <label for="post-price">Asking Price ($):</label>
-                        <input class="form-input" type="number" id="post-price" name="post-price" />
-                    </div>
-                    <div class="form-group">
-                        <label for="post-desc">Description:</label>
-                        <textarea class="form-input" id="post-desc" name="post-desc"></textarea>
-                    </div>
-                    <div class="form-group">
-                        <label for="post-vin">Vehicle's Vin:</label>
-                        <input class="form-input" type="text" id="post-vin" name="post-vin" />
-                    </div>
-                    <div class="form-group">
-                        <label for="post-mileage">Mileage:</label>
-                        <input class="form-input" type="number" id="post-mileage" name="post-mileage" />
-                    </div>
-                    <div class="form-group">
-                        <button type="submit" class="btn btn-primary">List Car</button>
-                    </div>
-                </form>
-            </div>
+    <form class="form new-project-form">
+      <div class="form-group">
+        <label for="post-name">Post Name:</label>
+        <input class="form-input" type="text" id="post-name" name="post-name" />
+      </div>
+      <div class="form-group">
+        <label for="post-price">Selling Price ($):</label>
+        <input class="form-input" type="number" id="post-price" name="post-price" />
+      </div>
+      <div class="form-group">
+        <label for="post-desc">Description:</label>
+        <textarea class="form-input" id="post-desc" name="post-desc"></textarea>
+      </div>
+      <div class="form-group">
+        <label for="post-vin">Vehicle's Vin:</label>
+        <textarea class="form-input" type ="number" id="post-vin" name="post-vin"></textarea>
+      </div>
+      <div class="form-group">
+        <label for="post-mileage">Mileage:</label>
+        <textarea class="form-input" id="post-mileage" name="post-mileage"></textarea>
+      </div>
+      <div class="form-group">
+        <button type="submit" class="btn btn-primary">Create Post</button>
+      </div>
+    </form>
+  </div>
 
-            {{#if projects.length}}
-            <div class="col-md-6 project-list">
-                <h3>Current Listings:</h3>
+  {{#if projects.length}}
+  <div class="col-md-6 project-list">
+    <h3>Current Projects:</h3>
 
-                {{#each projects as |project|}}
-                <div class="row mb-2">
-                    <div class="col-md-8">
-                        <h4><a href="/car/{{project.id}}">{{project.name}}</a></h4>
-                    </div>
-                    <div class="col-md-4">
-                        <button class="btn btn-sm btn-danger">
-                            <!-- Add any button content here -->
-                        </button>
-                    </div>
-                </div>
-                {{/each}}
-            </div>
-            {{/if}}
-        </div>
+    {{#each projects as |project|}}
+    <div class="row mb-2">
+      <div class="col-md-8">
+        <h4><a href="/project/{{project.id}}">{{project.name}}</a></h4>
+      </div>
+      <div class="col-md-4">
+        <button class="btn btn-sm btn-danger" data-id="{{project.id}}">DELETE</button>
+      </div>
     </div>
+    {{/each}}
+  </div>
+  {{/if}}
+</div>
+
 </body>
 </html>
+

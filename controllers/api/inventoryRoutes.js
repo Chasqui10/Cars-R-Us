@@ -17,7 +17,7 @@ router.post('/', async (req, res) => {
   });
   
   router.get('/', async (req, res) => {
-    res.send("Inventory API Get route hit");
+    res.send(`Inventory API Get route hit`);
   });
   
   module.exports = router;
