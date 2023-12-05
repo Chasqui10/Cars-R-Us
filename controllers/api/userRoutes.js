@@ -6,15 +6,6 @@ const { User } = require('../../models');
 
 
 
-// router.post('/', async (req, res) => {
-//   try {
-//     console.log('hello')
-
-//   } catch (err) {
-//     console.error(err)
-//   }
-// })
-
 router.post('/', async (req, res) => {
   try {
     const userData = await User.create(req.body);
@@ -71,5 +62,10 @@ router.post('/logout', (req, res) => {
     res.status(404).end();
   }
 });
+
+router.get('/', async (req, res) => {
+  res.send("User API Get route hit");
+});
+
 
 module.exports = router;

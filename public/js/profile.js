@@ -6,14 +6,16 @@
 const newFormHandler = async (event) => {
   event.preventDefault();
 
-  const name = document.querySelector('#project-name').value.trim(); // inventory name for the?   
-  const selling_price = document.querySelector('#project-funding').value.trim(); // price for the car 
-  const description = document.querySelector('#project-desc').value.trim(); // description of the car 
-
-  if (name && selling_price && description) {
+  const name = document.querySelector('#post-name').value.trim(); 
+  const selling_price = document.querySelector('#post-price').value.trim(); 
+  const description = document.querySelector('#post-desc').value.trim(); 
+  const vin = document.querySelector('#post-vin').value.trim(); 
+  const mileage = document.querySelector('#post-vin').value.trim(); 
+  
+  if (name && selling_price && description && vin && mileage) {
     const response = await fetch(`/api/inventory`, {
       method: 'POST',
-      body: JSON.stringify({ name, selling_price, description }),
+      body: JSON.stringify({ name, selling_price, description, vin, mileage }),
       headers: {
         'Content-Type': 'application/json',
       },
