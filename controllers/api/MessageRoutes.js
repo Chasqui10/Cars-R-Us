@@ -3,22 +3,14 @@
 // This would handle posting a realtime messaging interaction and storing the communication onto the data base????? for the web application
 // I wonder if this would require a model for handiling this in a database 
 const router = require('express').Router();
-const { User } = require('../../models');
+//const { User } = require('../../models');
 // const { Message } = require('../../models');
 
 router.post('/', async (req,res) => {
+  res.send('Hello World')
   try {
-    const userData = await User.create(req.body) 
-
-    // listeners would be here or on view?
-    // channel setting would be here
-    // communication between users and who is online
-    console.log('hello');
-    req.session.save(() => {
-      req.session.userid = userData.userid;
-      req.session.logged_in = true;
-    })
-
+    console.log('hello')
+  
   } catch(err) {
     res.status(400).json(err);
   }
@@ -27,17 +19,21 @@ router.post('/', async (req,res) => {
 router.post('/messages', async (req, res) => {
   try{
     //publishing would be here
-  } catch() {
-
+    
+  } catch(err) {
+    res.status(400).json(err);
   }
 })
 
 router.get('/messages', async (req, res) => {
+  res.send('goodbye');
   try{
     // Subscribe? 
-    console.log('goodbye');
+    console.log('hello');
 
   } catch(err) {
     res.status(400).json(err);
   }
 })
+
+module.exports = router;
