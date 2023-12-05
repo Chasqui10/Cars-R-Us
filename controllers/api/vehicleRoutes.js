@@ -10,24 +10,14 @@ const { Op } = require('sequelize'); // Import necessary Sequelize components
 
 router.get('/', async (req, res) => {
   try {
-    const { make, model, year } = req.query;
+    const { make, model, year, category } = req.query;
 
     // Construct the where clause dynamically based on the presence of parameters
-    const whereClause = {
-      [Op.and]: [],
-    };
-
-    if (make) {
-      whereClause[Op.and].push({ make: make });
-    }
-
-    if (model) {
-      whereClause[Op.and].push({ model: model });
-    }
-
-    if (year) {
-      whereClause[Op.and].push({ year: year });
-    }
+    const whereClause = {};
+    if (make) {whereClause.make = make;}
+    if (model) {whereClause.model = model;}
+    if (year) {whereClause.year = year;}
+    if (category) {whereClause.category = category;}
 
     // Use the where clause in your Sequelize query
     const vehicles = await Vehicle.findAll({
