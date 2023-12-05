@@ -22,7 +22,9 @@ router.post('/', async (req, res) => {
   });
   
 
-  
+  router.get('/', async (req, res) => {
+    res.send("Vehicle API Get route hit");
+  });
   
   
   
