@@ -10,7 +10,7 @@ const newFormHandler = async (event) => {
   const selling_price = document.querySelector('#post-price').value.trim(); 
   const description = document.querySelector('#post-desc').value.trim(); 
   const vin = document.querySelector('#post-vin').value.trim(); 
-  const mileage = document.querySelector('#post-vin').value.trim(); 
+  const mileage = document.querySelector('#post-mileage').value.trim(); 
   
   if (name && selling_price && description && vin && mileage) {
     const response = await fetch(`/api/inventory`, {
