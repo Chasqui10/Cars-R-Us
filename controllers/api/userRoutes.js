@@ -2,7 +2,7 @@
 // My thoughts on what interactive routes would be needed for our webapplication based of our goal
 // This would handle posting a user profile onto the data base for the web application 
 const router = require('express').Router();
-const { User } = require('../../models');
+const { User } = require('../models');
 
 
 
@@ -71,5 +71,8 @@ router.post('/logout', (req, res) => {
     res.status(404).end();
   }
 });
+
+
+
 
 module.exports = router;
