@@ -7,15 +7,15 @@ const newFormHandler = async (event) => {
   event.preventDefault();
 
   const name = document.querySelector('#post-name').value.trim(); 
-  const selling_price = document.querySelector('#post-price').value.trim(); 
+  const price = document.querySelector('#post-price').value.trim(); 
   const description = document.querySelector('#post-desc').value.trim(); 
   const vin = document.querySelector('#post-vin').value.trim(); 
   const mileage = document.querySelector('#post-mileage').value.trim(); 
   
-  if (name && selling_price && description && vin && mileage) {
+  if (name && price && description && vin && mileage) {
     const response = await fetch(`/api/inventory`, {
       method: 'POST',
-      body: JSON.stringify({ name, selling_price, description, vin, mileage }),
+      body: JSON.stringify({ name, price, description, vin, mileage }),
       headers: {
         'Content-Type': 'application/json',
       },
@@ -46,9 +46,9 @@ const delButtonHandler = async (event) => {
 };
 
 document
-  .querySelector('.new-project-form')
+  .querySelector('.new-post-form')
   .addEventListener('submit', newFormHandler);
 
 document
-  .querySelector('.project-list')
+  .querySelector('.post-list')
   .addEventListener('click', delButtonHandler);
