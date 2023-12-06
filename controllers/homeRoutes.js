@@ -39,7 +39,6 @@ router.get('/profile', withAuth, async (req, res) => {
       });
 
       const user = userData.get({ plain: true });
-      
       // Send the rendered Handlebars.js template back as the response
       res.render('profile', {
         ...user,
@@ -66,6 +65,20 @@ router.get('/profile', withAuth, async (req, res) => {
     res.render('landing');
   });
   
+  router.get('/inventory', async (req, res) => {
+    // Send the rendered Handlebars.js template back as the response
+    const userInventory = await Inventory.findAll({
+      where: {
+        userid: req.session.userid,
+      },
+    });
+   console.log(req.session.userid);
+   const inventory = userInventory.map((invent) => invent.get({ plain: true }));
+
+    res.render('inventory', {
+      inventory: inventory,
+    });
+});
 
   router.get('*', async (req, res) => {
     //catchall route
