@@ -3,7 +3,7 @@
 // This would handle posting a new car onto the data base for the web application 
 const router = require('express').Router();
 const Vehicle = require('../../models/vehicles');
-const { Op } = require('sequelize'); // Import necessary Sequelize components
+//const { Op } = require('sequelize'); // Import necessary Sequelize components
 
 
 
