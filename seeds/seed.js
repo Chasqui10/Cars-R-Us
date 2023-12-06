@@ -1,11 +1,13 @@
 //import sequielize connection and models
 const sequelize = require('../config/connection');
-const { User, Vehicles, Inventory} = require('../models');
+const { User, Vehicles, Inventory } = require('../models'); 
 
 //create constants from model data
 const users = require('./seeduserdata.json');
 const vehicles = require('./seedvehicles.json');
 const inventory = require('./seedinventory.json');
+
+
 //seeds the database via function
 const seedDatabase = async () => {
   await sequelize.sync({ force: true });

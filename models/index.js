@@ -7,4 +7,8 @@ User.hasMany(Inventory, {
     onDelete: 'CASCADE'
 });
 
+Inventory.belongsTo(User,{
+    foreignKey: 'userid'
+});
+
 module.exports = { User, Vehicles, Inventory };

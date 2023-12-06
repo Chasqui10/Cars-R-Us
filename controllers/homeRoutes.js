@@ -1,23 +1,65 @@
 const router = require('express').Router();
+const { User, Inventory } = require('../models');
+const withAuth = require('../utils/auth');
 
 router.get('/', async (req, res) => {
-  // Send the rendered Handlebars.js template back as the response
-  res.render('landing');
+  try {
+    const inventoryData = await Inventory.findall({
+      include: [
+        {
+          model: User,
+          attributes: ['name']
+        },
+      ],
+    });
+
+    const inventory = inventoryData.map((invent) => invent.get({ plain: true })); 
+    
+    // Send the rendered Handlebars.js template back as the response
+    res.render('landing', {
+      inventory,
+      logged_in: req.session.logged_in
+    });
+
+  } catch (err) {
+    res.status(500).json(err);
+  }
+
 });
 
-router.get('/login', async (req, res) => {
+router.get('/profile', withAuth, async (req, res) => {
+    try {
+      const userData = await User.findByPk(req.session.userid, {
+        attributes: {exclude: ['password']},
+        include: [{ model: Inventory }],
+      });
+
+      const user = userData.get({ plain: true });
+      
+      // Send the rendered Handlebars.js template back as the response
+      res.render('profile', {
+        ...user,
+        logged_in: true
+      });
+      
+    } catch(err) {
+      res.status(500).json(err);
+    }
+    
+  });
+
+  router.get('/login', async (req, res) => {
+    if (req.session.logged_in) {
+      res.redirect('/profile');
+      return;
+    }
     // Send the rendered Handlebars.js template back as the response
     res.render('login');
   });
-
-  router.get('/profile', async (req, res) => {
-    // Send the rendered Handlebars.js template back as the response
-    res.render('profile');
-  });
-
+  
   router.get('/main', async (req, res) => {
     // Send the rendered Handlebars.js template back as the response
     res.render('index');
   });
-
-module.exports = router;
+  
+  module.exports = router;
