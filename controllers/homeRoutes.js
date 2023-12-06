@@ -16,7 +16,7 @@ router.get('/', async (req, res) => {
     const inventory = inventoryData.map((invent) => invent.get({ plain: true })); 
     
     // Send the rendered Handlebars.js template back as the response
-    res.render('landing', {
+    res.render('index', {
       inventory,
       logged_in: req.session.logged_in
     });
@@ -59,7 +59,13 @@ router.get('/profile', withAuth, async (req, res) => {
   
   router.get('/main', async (req, res) => {
     // Send the rendered Handlebars.js template back as the response
-    res.render('index');
+    res.render('landing');
   });
   
+
+  router.get('*', async (req, res) => {
+    //catchall route
+    res.render('landing');
+  });
+
   module.exports = router;
