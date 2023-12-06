@@ -43,6 +43,45 @@ router.get('/', async (req, res) => {
   }
 });
 
+router.delete('/:id', async (req, res) => {
+  try {
+    const inventoryData = await Inventory.destroy({
+      where: {
+        id: req.params.id,
+      },
+    });
+
+    if (!inventoryData) {
+      res.status(404).json({ message: 'No inventory found with this id!' });
+      return;
+    }
+
+    res.status(200).json(inventoryData);
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ error: 'Internal Server Error' });
+  }
+});
+
+router.put('/:id', async (req, res) => {
+  try {
+    const inventoryData = await Inventory.update(req.body, {
+      where: {
+        id: req.params.id,
+      },
+    });
+
+    if (!inventoryData) {
+      res.status(404).json({ message: 'No inventory found with this id!' });
+      return;
+    }
+
+    res.status(200).json(inventoryData);
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ error: 'Internal Server Error' });
+  }
+}
 
 router.post('/', async (req, res) => {
   try {
