@@ -17,17 +17,10 @@
             margin: 0 auto;
         }
 
-        nav {
-            background-color: #000; /* Updated to black */
-            padding: 10px 0;
+        profile {
+            display:block;
+            padding-top: 80px;
             width: 100%;
-            text-align: center;
-        }
-
-        nav a {
-            color: #fff;
-            text-decoration: none;
-            margin: 0 10px;
         }
 
         .row {
@@ -114,13 +107,8 @@
             }
         }
     </style>
-    <nav>
-        <a href="#">Home</a>
-        <a href="#">Listings</a>
-        <a href="#">Contact</a>
-        <!-- Add more navigation links as needed -->
-    </nav>
-    
+
+<profile>
 <div class="row">
   <div class="col-auto">
     <h2>Welcome, {{name}}!</h2>
@@ -175,7 +163,7 @@
   </div>
   {{/if}}
 </div>
-
+</profile>
 <script src="./js/profile.js"></script>
 
 
