@@ -4,10 +4,6 @@ const withAuth = require('../utils/auth');
 
 
 router.get('/', async (req, res) => {
-  if (!req.session.logged_in) {
-    res.redirect('/login');
-    return;
-  }
  res.render('landing', { logged_in: true });
 });  
 
@@ -28,7 +24,6 @@ router.get('/profile', withAuth, async (req, res) => {
     } catch(err) {
       res.status(500).json(err);
     }
-    
   });
 
   router.get('/login', async (req, res) => {
@@ -64,7 +59,7 @@ router.get('/profile', withAuth, async (req, res) => {
    console.log(req.session.userid);
    const inventory = userInventory.map((invent) => invent.get({ plain: true }));
 
-    res.render('inventory', {
+    res.render('index', {
       inventory: inventory,
       logged_in: true, 
     });

@@ -1,17 +1,14 @@
-<section class="inventory card">
-    <div><h2>{{year}} {{make}} {{model}}</h2></div>
-    <div><img src="{{image}}" alg="{{image}}"></div>
-    <div>{{category}}</div>
-    <div>VIN {{inventory.[0].vin}}</div>
-    <div>Mileage {{mileage}}</div>
-    <div>Info: {{description}}</div>
-    <div>Engine {{engine}}</div>
-    <div>Transmission {{transmission}}</div>
-    <div>Drive Train {{driveTrain}}</div>
-    <div>Exterior Color {{exteriorColor}}</div>
-    <div>Interior Color {{interiorColor}}</div>
-    <div>Doors {{doors}}</div>
-    <div>MPG c:{{mpgCity}}  h:{{mpgHighway}}</div>
-    <div>Posted by: {{name}}</div>
-    <div>Price: {{price}}</div>
-</section>
+<a href="wrx.html">
+        <div class="product-container">
+            <img src="{{image}}" alt="Product Image" class="product-image">
+            <div class="product-details">
+              <div class="product-title">{{year}} {{make}} {{model}}</div>
+              <div class="product-price">${{price}}</div>
+              <div class="miles">Miles: {{mileage}}</div>
+              <div class="product-description">
+                {{description}}
+              </div>
+            </div>
+          </div>
+    </a>
+
