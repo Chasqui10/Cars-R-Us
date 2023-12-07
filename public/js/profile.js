@@ -11,19 +11,22 @@ const newFormHandler = async (event) => {
   const model = document.querySelector('#post-model').value.trim(); 
   const year = document.querySelector('#post-year').value.trim(); 
   const mileage = document.querySelector('#post-mileage').value.trim(); 
-  const category = document.querySelector('#post-category').value.trim(); 
   const price = document.querySelector('#post-price').value.trim(); 
   const description = document.querySelector('#post-desc').value.trim(); 
+  const image = document.querySelector('#post-image').value.trim(); 
+  const image2 = document.querySelector('#post-image2').value.trim(); 
+  const image3 = document.querySelector('#post-image3').value.trim(); 
+  const image4 = document.querySelector('#post-image4').value.trim(); 
   
   
   
 
   
   
-  if (name && make && model && year && mileage && category && price && description) {
+  if (name && make && model && year && mileage && price && description && image && image2 && image3 && image4 ) {
     const response = await fetch(`/api/inventory`, {
       method: 'POST',
-      body: JSON.stringify({ name, make, model, year, mileage, category, price, description}),
+      body: JSON.stringify({ name, make, model, year, mileage, price, description, image, image2, image3, image4 }),
       headers: {
         'Content-Type': 'application/json',
       },

@@ -23,7 +23,7 @@ Inventory.init(
     },
     category: {
         type: DataTypes.STRING,
-        allowNull: false,
+        allowNull: true,
     },
     year: {
         type: DataTypes.INTEGER,
@@ -46,6 +46,18 @@ Inventory.init(
         allowNull: true,
     },
     image: {
+        type: DataTypes.STRING,
+        allowNull: true,
+    },
+    image2: {
+        type: DataTypes.STRING,
+        allowNull: true,
+    },
+    image3: {
+        type: DataTypes.STRING,
+        allowNull: true,
+    },
+    image4: {
         type: DataTypes.STRING,
         allowNull: true,
     },
