@@ -86,8 +86,11 @@ router.put('/:id', async (req, res) => {
 router.post('/', async (req, res) => {
   try {
      // Extract data from the request body
-     const { make, model, year, category, vin, mileage, price, description, transmission, engine, driveTrain, fuelType, doors, cylinders, mpgCity, mpgHighway, interiorColor, exteriorColor } = req.body;
-     console.log(req.body);
+     const { make, model, year, mileage, category, price, description } = req.body;
+
+    //  const { make, model, year, category, vin, mileage, price, description, transmission, engine, driveTrain, fuelType, doors, cylinders, mpgCity, mpgHighway, interiorColor, exteriorColor } = req.body;
+     
+    console.log(req.body);
     //  if(!make || !model || !year || !category || !vin || !mileage || !price || !description || !transmission || !engine || !driveTrain || !fuelType || !doors || !cylinders || !mpgCity || !mpgHighway || !interiorColor || !exteriorColor) 
     //  {
     //     return res.status(400).json({ error: 'REQUIRED FIELDS MISSING: Make, model, year, category, id, vin, mileage, price, description, transmission, engine, driveTrain, fuelType, doors, cylinders, mpgCity, mpgHighway, interiorColor, exteriorColor are all required' });
@@ -97,22 +100,13 @@ router.post('/', async (req, res) => {
       model,
       year,
       category,
-      vin,
       mileage,
       price,
       description,
-      transmission,
-      engine,
-      driveTrain,
-      fuelType,
-      doors,
-      cylinders,
-      mpgCity,
-      mpgHighway,
-      interiorColor,
-      exteriorColor,
       });
+
     res.status(201).json({ inventory: inventory });
+    
   } catch (error) {
     console.error(error);
     res.status(500).json({ error: 'Internal Server Error' });
