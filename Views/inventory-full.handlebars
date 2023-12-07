@@ -1,0 +1,63 @@
+<link rel="stylesheet" href="/css/wrx.css">
+
+<div class="container">
+<div class="img-container">
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><img src="{{inventory.image}}"></div>
+                  <div class="swiper-slide"><img src="{{inventory.image2}}"></div>
+                  <div class="swiper-slide"><img src="{{inventory.image3}}"></div>
+                  <div class="swiper-slide"><img src="{{inventory.image4}}"></div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+        </div>
+
+
+          <div class="details">
+              <div class="product-title">{{inventory.year}} {{inventory.make}} {{inventory.model}}</div>
+                <div class="product-price">${{inventory.price}}</div>
+                <div class="miles">Miles {{inventory.mileage}}</div>
+                <div class="product-description">
+                  {{inventory.description}}
+                </div>
+              </div>
+          </div>
+  
+
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+        <script>
+            const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  
+});
+
+
+            function toggleDescription(descriptionId) {
+             var description = document.getElementById(descriptionId); 
+             description.classList.toggle("expanded");
+            }
+
+        
+        </script>
+
+        <script src="" async defer></script>

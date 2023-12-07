@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="/css/style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/fontawesome.min.css"> 
         <link rel="stylesheet" href="https://unpkg.com/swiper/swiper@7/swiper-bundle.min.css"/>
-
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     </head>
     <body>
         <header>
@@ -21,18 +21,14 @@
                     <a href="#">Contact</a>
                 </div>
 
-                <div class="social">
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                </div>
-
+                <div class="menu">
                 {{#if logged_in}}
                     <a href="/profile">Profile</a> |
                     <button class="no-button" id="logout">Logout</button>
                 {{else}}
                     <a href="/login">Login</a>
                 {{/if}}
+                </div>
 
             </nav>
         </header>
