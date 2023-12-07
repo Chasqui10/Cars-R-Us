@@ -8,6 +8,12 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="../../public/css/style.css">
+        <link rel="stylesheet" href="../../public/css/wrx.css">
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+        />
+
     </head>
     <body>
        
@@ -34,6 +40,59 @@
             </nav>
         </header>
 
+        <div class="img-container">
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><img src="../../public/images/9eDV7gRk-BkozZLqRFn-(edit).jpg"></div>
+                  <div class="swiper-slide"><img src="../../public/images/honda-civic-type-r-sonic-gray-pearl-1541083264.jpg"></div>
+                  <div class="swiper-slide"><img src="../../public/images/img_2296.jpg"></div>
+                  <div class="swiper-slide"><img src="../../public/images/2023-honda-civic-type-r-driver-area-carbuzz-1057165-1600.jpg"></div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+        </div>
+
+        <div class="details">
+            <div class="product-title">2023 Honda Civic Type R</div>
+            <div class="product-price">$39,099</div>
+            <div class="miles">Miles 4,045</div>
+            <div class="product-description">
+                Introducing the cutting-edge Type R, a marvel of automotive engineering that blends performance and sophistication. Its dynamic design, marked by bold lines and a sporty aesthetic, encapsulates a fusion of form and function. Inside, the cockpit boasts ergonomic excellence, offering an immersive driving experience. The powerhouse beneath the hood is a testament to engineering prowess, delivering exhilarating acceleration and precise handling. This Type R transcends mere transportation; it's a high-performance work of art that beckons enthusiasts to savor every journey. Elevate your driving experience with this automotive masterpiece, where power, style, and precision converge for an unparalleled ride.
+            </div>
+          </div>
+        </div>
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+        <script>
+            const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  
+});
+
+
+            
+        
+        </script>
 
         <script src="" async defer></script>
     </body>

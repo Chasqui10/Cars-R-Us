@@ -8,6 +8,12 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="../../public/css/style.css">
+        <link rel="stylesheet" href="../../public/css/wrx.css">
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+        />
+
     </head>
     <body>
        
@@ -34,6 +40,58 @@
             </nav>
         </header>
 
+        <div class="img-container">
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><img src="../../public/images/20160429_173949.jpg"></div>
+                  <div class="swiper-slide"><img src="../../public/images/2011-ford-mustang-gt-rear-seats.jpg"></div>
+                  <div class="swiper-slide"><img src="../../public/images/QYjh-D2jEEs.jpg"></div>
+                  <div class="swiper-slide"><img src="../../public/images/3o70bqy2-E8YuQscmsT-(edit).jpg"></div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+        </div>
+
+        <div class="details">
+            <div class="product-title">2011 Mustang GT</div>
+            <div class="product-price">$10,900</div>
+            <div class="miles">Miles 167,000</div>
+            <div class="product-description" id="MustangDescription">
+                Rev up your excitement with our used Mustang GT, a powerful blend of modern muscle and timeless style. The iconic design of this Mustang GT commands attention, capturing the spirit of American performance. Inside, the dynamic interior seamlessly combines comfort and cutting-edge technology, delivering an immersive driving experience. Fueled by a potent engine, this Mustang GT promises exhilarating acceleration and precision handling. It's not just a car; it's a symbol of automotive passion. Embrace the thrill of the road with our used Mustang GT—a dynamic ride that embodies the essence of pure American muscle. 
+            </div>
+          </div>
+        </div>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+        <script>
+            const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  
+});
+
+
+            
+        
+        </script>
 
         <script src="" async defer></script>
     </body>

@@ -8,6 +8,12 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="../../public/css/style.css">
+        <link rel="stylesheet" href="../../public/css/wrx.css">
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+        />
+
     </head>
     <body>
        
@@ -34,7 +40,59 @@
             </nav>
         </header>
 
+        <div class="img-container">
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><img src="../../public/images/217930_1.jpg"></div>
+                  <div class="swiper-slide"><img src="../../public/images/Toyota-Camry-interior-1024x576.jpg"></div>
+                  <div class="swiper-slide"><img src="../../public/images/2019-toyota-camry-hybrid-maximum-cargo-space-carbuzz-388902.jpg"></div>
+                  <div class="swiper-slide"><img src="../../public/images/2011-Toyota-Camry-ASV40LGSV40LAHV40L-1602189918044.jpg"></div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+        </div>
 
-        <script src="" async defer></script>
-    </body>
-</html>
+        <div class="details">
+            <div class="product-title">2019 Toyota Camry</div>
+              <div class="product-price">$7,000</div>
+              <div class="miles">Miles 120,563</div>
+              <div class="product-description">
+                Dive into the sophistication of our used Camry, where reliability meets refined design. This sedan, with its time-tested elegance, seamlessly combines style and efficiency. The interior, though pre-loved, still radiates comfort and technological prowess. Driven by a dependable yet efficient engine, this Camry ensures a journey that's not just about the destination but the experience itself. Embrace the allure of a used Camry—an embodiment of reliability and enduring style, offering a blend of practicality and the joy of driving. Your next chapter starts with the charm of a pre-loved Camry. 
+              </div>
+            </div>
+          </div>
+
+
+          <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+          <script>
+              const swiper = new Swiper('.swiper', {
+    // Optional parameters
+    
+    loop: true,
+  
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+  
+    // Navigation arrows
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  
+    
+  });
+  
+  
+              
+          
+          </script>
+  
+          <script src="" async defer></script>
+      </body>
+  </html>
