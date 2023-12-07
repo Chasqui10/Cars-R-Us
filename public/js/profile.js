@@ -7,15 +7,23 @@ const newFormHandler = async (event) => {
   event.preventDefault();
 
   const name = document.querySelector('#post-name').value.trim(); 
+  const make = document.querySelector('#post-make').value.trim();
+  const model = document.querySelector('#post-model').value.trim(); 
+  const year = document.querySelector('#post-year').value.trim(); 
+  const mileage = document.querySelector('#post-mileage').value.trim(); 
+  const category = document.querySelector('#post-category').value.trim(); 
   const price = document.querySelector('#post-price').value.trim(); 
   const description = document.querySelector('#post-desc').value.trim(); 
-  const vin = document.querySelector('#post-vin').value.trim(); 
-  const mileage = document.querySelector('#post-mileage').value.trim(); 
   
-  if (name && price && description && vin && mileage) {
+  
+  
+
+  
+  
+  if (name && make && model && year && mileage && category && price && description) {
     const response = await fetch(`/api/inventory`, {
       method: 'POST',
-      body: JSON.stringify({ name, price, description, vin, mileage }),
+      body: JSON.stringify({ name, make, model, year, mileage, category, price, description}),
       headers: {
         'Content-Type': 'application/json',
       },
