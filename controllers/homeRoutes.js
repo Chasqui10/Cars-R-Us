@@ -2,33 +2,13 @@ const router = require('express').Router();
 const { User, Inventory } = require('../models');
 const withAuth = require('../utils/auth');
 
-// router.get('/', async (req, res) => {
-//   try {
-//     const inventoryData = await Inventory.findall({
-//       include: [
-//         {
-//           model: User,
-//           attributes: ['id']
-//         },
-//       ],
-//     });
-
-//     const inventory = inventoryData.map((invent) => invent.get({ plain: true })); 
-    
-//     // Send the rendered Handlebars.js template back as the response
-//     res.render('index', {
-//       inventory,
-//       logged_in: req.session.logged_in
-//     });
-
-//   } catch (err) {
-//     res.status(500).json(err);
-//   }
-
-// });
 
 router.get('/', async (req, res) => {
- res.render('landing');
+  if (!req.session.logged_in) {
+    res.redirect('/login');
+    return;
+  }
+ res.render('landing', { logged_in: true });
 });  
 
 router.get('/profile', withAuth, async (req, res) => {
@@ -56,16 +36,25 @@ router.get('/profile', withAuth, async (req, res) => {
       res.redirect('/profile');
       return;
     }
+    
     // Send the rendered Handlebars.js template back as the response
     res.render('login');
   });
   
   router.get('/main', async (req, res) => {
+    if (!req.session.logged_in) {
+      res.redirect('/login');
+      return;
+    }
     // Send the rendered Handlebars.js template back as the response
-    res.render('landing');
+    res.render('landing', { logged_in: true });
   });
   
   router.get('/inventory', async (req, res) => {
+    if (!req.session.logged_in) {
+      res.redirect('/login');
+      return;
+    }
     // Send the rendered Handlebars.js template back as the response
     const userInventory = await Inventory.findAll({
       where: {
@@ -77,12 +66,17 @@ router.get('/profile', withAuth, async (req, res) => {
 
     res.render('inventory', {
       inventory: inventory,
+      logged_in: true, 
     });
 });
 
   router.get('*', async (req, res) => {
+    if (!req.session.logged_in) {
+      res.redirect('/login');
+      return;
+    }
     //catchall route
-    res.render('landing');
+    res.render('landing', { logged_in: true });
   });
 
   module.exports = router;
