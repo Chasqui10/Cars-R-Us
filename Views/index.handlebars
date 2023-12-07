@@ -8,5 +8,7 @@
                 <a href="#" class="btn">book a test drive</a>
             </div>
         </div>
-        {{#each inventory}}
+         {{#each inventory as |post|}}
+            {{> inventory-details}}
+        {{/each}}
         <script src="script.js" async defer></script>
