@@ -4,11 +4,14 @@ const withAuth = require('../utils/auth');
 
 
 router.get('/', async (req, res) => {
+
+
   if (!req.session.logged_in) {
     res.redirect('/login');
     return;
   }
  res.render('landing', {logged_in: true});
+
 });  
 
 router.get('/profile', withAuth, async (req, res) => {

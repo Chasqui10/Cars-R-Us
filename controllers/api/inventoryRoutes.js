@@ -86,23 +86,20 @@ router.put('/:id', async (req, res) => {
 router.post('/', async (req, res) => {
   try {
      // Extract data from the request body
-     const { make, model, year, mileage, category, price, description } = req.body;
+     const { make, model, year, mileage, price, description, image, image2, image3, image4 } = req.body;
 
-    //  const { make, model, year, category, vin, mileage, price, description, transmission, engine, driveTrain, fuelType, doors, cylinders, mpgCity, mpgHighway, interiorColor, exteriorColor } = req.body;
-     
-    console.log(req.body);
-    //  if(!make || !model || !year || !category || !vin || !mileage || !price || !description || !transmission || !engine || !driveTrain || !fuelType || !doors || !cylinders || !mpgCity || !mpgHighway || !interiorColor || !exteriorColor) 
-    //  {
-    //     return res.status(400).json({ error: 'REQUIRED FIELDS MISSING: Make, model, year, category, id, vin, mileage, price, description, transmission, engine, driveTrain, fuelType, doors, cylinders, mpgCity, mpgHighway, interiorColor, exteriorColor are all required' });
-    //  }
       const inventory = await Inventory.create({
       make,
       model,
       year,
-      category,
+
       mileage,
       price,
       description,
+      image,
+      image2,
+      image3,
+      image4
       });
 
     res.status(201).json({ inventory: inventory });
@@ -114,24 +111,3 @@ router.post('/', async (req, res) => {
 });
 module.exports = router;
 
-//Example JSOn post request
-// {
-// 	"make": "Billymake",
-// 	"model": "Billymodel",
-// 		"year": "1980",
-// 		"category": "oldpersonsmobile",
-// 		"vin": "12345",
-// 		"mileage": "10",
-// 		"price": "1000000",
-// 		"description": "Really old car",
-// 		"transmission": "barely",
-// 		"engine": "yes",
-// 		"driveTrain": "left-wheel drive",
-// 		"fuelType": "beans",
-// 		"doors": "1",
-// 		"cylinders": "7",
-// 		"mpgCity": "6",
-// 		"mpgHighway": "120" ,
-// 		"interiorColor": "dirty",
-// 		"exteriorColor": "dinosaur wrap"
-// }
