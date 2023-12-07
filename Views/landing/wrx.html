@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../../public/css/style.css">
+        <link rel="stylesheet" href="../../public/css/wrx.css">
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+        />
+
+    </head>
+    <body>
+       
+
+
+        <header>
+            <nav>
+                <img src="../../public/images/car-logo.png" class="logo" alt="">
+                <div class="menu">
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Features</a>
+                    <a href="#">Variations</a>
+                    <a href="#">Specials</a>
+                    <a href="#">Contact</a>
+                </div>
+
+                <div class="social">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    
+                </div>
+            </nav>
+        </header>
+
+        <div class="img-container">
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><img src="../../public/images/maxresdefault.jpg"></div>
+                  <div class="swiper-slide"><img src="../../public/images/downloadwrx.jpg"></div>
+                  <div class="swiper-slide"><img src="../../public/images/Version 6 sti interior 7.jpg"></div>
+                  <div class="swiper-slide"><img src="../../public/images/subaru-wrx-interior-2.jpg"></div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+        </div>
+
+
+        <div class="details">
+            <div class="product-title">2000 Subaru WRX STI</div>
+              <div class="product-price">$20,316</div>
+              <div class="miles">Miles 86,987</div>
+              <div class="product-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at velit nec est susc
+              </div>
+            </div>
+        </div>
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+        <script>
+            const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  
+});
+
+
+            function toggleDescription(descriptionId) {
+             var description = document.getElementById(descriptionId); 
+             description.classList.toggle("expanded");
+            }
+
+        
+        </script>
+
+        <script src="" async defer></script>
+    </body>
+</html>
