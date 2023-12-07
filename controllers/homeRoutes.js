@@ -4,7 +4,14 @@ const withAuth = require('../utils/auth');
 
 
 router.get('/', async (req, res) => {
- res.render('landing');
+
+
+  if (!req.session.logged_in) {
+    res.redirect('/login');
+    return;
+  }
+ res.render('landing', {logged_in: true});
+
 });  
 
 router.get('/profile', withAuth, async (req, res) => {
@@ -51,19 +58,40 @@ router.get('/profile', withAuth, async (req, res) => {
       return;
     }
     // Send the rendered Handlebars.js template back as the response
-    const userInventory = await Inventory.findAll({
-      where: {
-        userid: req.session.userid,
-      },
-    });
-   console.log(req.session.userid);
-   const inventory = userInventory.map((invent) => invent.get({ plain: true }));
+    const userInventory = await Inventory.findAll();
+    const inventory = userInventory.map((invent) => invent.get({ plain: true }));
 
     res.render('index', {
       inventory: inventory,
       logged_in: true, 
     });
 });
+
+
+
+
+router.get('/inventory/:id', async (req, res) => {
+  if (!req.session.logged_in) {
+    res.redirect('/login');
+    return;
+  }
+  
+  const userInventory = await Inventory.findByPk(req.params.id);
+
+  const inventory  = userInventory.get({ plain: true });
+
+  res.render('inventory-full', {
+    inventory: inventory,
+    logged_in: true, 
+  });
+});
+
+
+
+
+
+
+
 
   router.get('*', async (req, res) => {
     if (!req.session.logged_in) {
