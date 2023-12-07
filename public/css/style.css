@@ -8,7 +8,6 @@
 }
 
 header {
-    position: fixed;
     top: 0;
     left: 0;
     right: 0;
@@ -21,6 +20,7 @@ header nav {
     justify-content: space-between;
     align-items: center;
     height: 80px;
+    
 }
 
 header nav.logo {
@@ -68,6 +68,9 @@ nav .social a i:hover {
 .hero {
     width: 100%;
     height: 100vh;
+    z-index: -1;
+    margin-top:-80px;
+    top: 0;
     background: url(../images/subaru-wrx-sti-need-for-speed-heat-nk-2560x1440.jpg);
     background-position: center;
     background-size: cover;
@@ -86,6 +89,8 @@ nav .social a i:hover {
     color: #ffff;
     font-weight: 500;
     margin-bottom: 10px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
 
 .hero .text h1 {
@@ -94,12 +99,15 @@ nav .social a i:hover {
     text-transform: uppercase;
     line-height: 1;
     margin-bottom: 30px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
 
 .hero .text h1 span {
     color: #dd0707;
     font-size: 80px;
     font-weight: bold;
+    -webkit-text-stroke-width: 0px;
 }
 
 .hero .text p {
@@ -126,7 +134,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #252525;
   }
 
   .product-container {
@@ -170,6 +178,7 @@ body {
     font-size: 1em;
     color: #333;
     max-height: 3em;
+    min-height: 75%;
     line-height: 1.5em;
     transition: max-height 0.3s ease-out;
   }
