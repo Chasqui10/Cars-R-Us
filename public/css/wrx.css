@@ -16,8 +16,9 @@
 }
 
 .swiper {
-    width: 50%;
+    max-width: 50%;
     height: fit-content;
+    margin-right:20px !important;
 }
 
 .swiper-slide img {
@@ -35,11 +36,8 @@
 .details {
     max-width: 500px;
     max-height: 800px;
-    margin: 20px auto;
+    margin: 20px auto 10px 10px;
     border-radius: 8px;
-    float: left;
-    margin-left: -300px;
-    margin-top: -670px;
 }
 
 .product-description {
