@@ -8,6 +8,7 @@
 }
 
 header {
+    position: relative;
     top: 0;
     left: 0;
     right: 0;
@@ -178,7 +179,6 @@ body {
     font-size: 1em;
     color: #333;
     max-height: 3em;
-    min-height: 75%;
     line-height: 1.5em;
     transition: max-height 0.3s ease-out;
   }
